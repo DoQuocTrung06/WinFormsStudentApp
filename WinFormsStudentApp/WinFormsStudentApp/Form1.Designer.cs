@@ -32,6 +32,7 @@
             this.labelStudentName = new System.Windows.Forms.Label();
             this.labelCourseName = new System.Windows.Forms.Label();
             this.txtCourseName = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtStudentName
@@ -66,11 +67,21 @@
             this.txtCourseName.Size = new System.Drawing.Size(156, 20);
             this.txtCourseName.TabIndex = 4;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(632, 346);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Developed by DQT";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtCourseName);
             this.Controls.Add(this.labelCourseName);
             this.Controls.Add(this.labelStudentName);
@@ -87,6 +98,7 @@
         private System.Windows.Forms.Label labelStudentName;
         private System.Windows.Forms.Label labelCourseName;
         private System.Windows.Forms.TextBox txtCourseName;
+        private System.Windows.Forms.Label label1;
     }
 }
 
